@@ -1,0 +1,64 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/singleSigWallet/artifacts/ownable.sol": "Ownable"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/singleSigWallet/artifacts/ownable.sol": {
+			"keccak256": "0x706729468058906f102ef9d75b5f4dc362c7f9e5847c5f5552190151c91ae2b7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://35e8c9f22a1eda2c02b0994ddd3f5c4467ca89fac4ada29ea4ad0d2ce8503791",
+				"dweb:/ipfs/QmZowdKXd4e6dVWPxmx9Gt3jZb4oTyaJyo9uuHH4Ru94d5"
+			]
+		}
+	},
+	"version": 1
+}
